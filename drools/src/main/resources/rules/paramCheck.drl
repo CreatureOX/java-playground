@@ -1,0 +1,10 @@
+package paramcheck
+
+import com.creatureox.drools.dto.request.DemoReqDTO
+
+rule "nameCheck"
+    when
+        $dto: DemoReqDTO(name != null)
+    then
+        System.out.println("param check pass!");
+end
