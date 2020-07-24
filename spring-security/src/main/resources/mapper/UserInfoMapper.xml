@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.creatureox.security.domain.mapper.UserInfoMapper">
+    <resultMap id="BaseResultMap" type="com.creatureox.security.domain.entity.UserInfo">
+        <result column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="All_Column">
+        id, `name`
+    </sql>
+
+    <select id="selectByName" resultMap="BaseResultMap" parameterType="java.lang.String">
+        SELECT
+        <include refid="All_Column"/>
+        FROM t_htp_user
+        WHERE id = #{id, jdbcType=BIGINT}
+    </select>
+
+</mapper>
