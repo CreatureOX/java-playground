@@ -1,0 +1,4 @@
+2020-07-26 20:51:01 [com.xxl.job.core.thread.JobThread#run]-[124]-[Thread-31] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2020-07-26 20:51:05 [com.creatureox.xxl.task.TestJobHandler#execute]-[20]-[Thread-31] XXL-JOB, Hello World.
+2020-07-26 20:51:05 [com.xxl.job.core.thread.JobThread#run]-[158]-[Thread-31] <br>----------- xxl-job job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=null, content=null]
+2020-07-26 20:51:05 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[176]-[Thread-9] <br>----------- xxl-job job callback finish.
