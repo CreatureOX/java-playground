@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.creatureox.grpc";
+option java_multiple_files = true;
+option java_outer_classname = "HelloWorldProto";
+
+message Greeting {
+    string name = 1;
+}
+
+message HelloResp {
+    string reply = 1;
+}
+
+service HelloWorld {
+    rpc sayHello (Greeting) returns (HelloResp);
+}
