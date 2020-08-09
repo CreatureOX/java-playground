@@ -1,111 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b59ca9bc-0db7-4d65-a9bd-9326e95fe9a0" name="Default Changelist" comment="grpc">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelloClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelloServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/hello_world.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/HelloClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/HelloServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/HelloServer$HelloImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/HelloServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/Greeting$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/Greeting$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/Greeting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/GreetingOrBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloResp$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloResp$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloResp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloRespOrBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$HelloWorldBaseDescriptorSupplier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$HelloWorldBlockingStub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$HelloWorldFileDescriptorSupplier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$HelloWorldFutureStub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$HelloWorldImplBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$HelloWorldMethodDescriptorSupplier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$HelloWorldStub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc$MethodHandlers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldGrpc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/creatureox/grpc/HelloWorldProto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/com/creatureox/grpc/HelloWorldGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/java/com/creatureox/grpc/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/java/com/creatureox/grpc/GreetingOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/java/com/creatureox/grpc/HelloResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/java/com/creatureox/grpc/HelloRespOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/java/com/creatureox/grpc/HelloWorldProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/any.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/compiler/plugin.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/descriptor.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/duration.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/empty.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/field_mask.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/source_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/struct.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/timestamp.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/type.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/67b4fe18887c3b8300884874e14e7a16/google/protobuf/wrappers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/annotations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/auth.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/backend.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/billing.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/client.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/config_change.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/consumer.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/control.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/distribution.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/documentation.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/endpoint.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/field_behavior.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/http.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/httpbody.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/label.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/launch_stage.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/log.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/logging.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/metric.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/monitored_resource.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/monitoring.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/quota.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/resource.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/service.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/source_info.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/system_parameter.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/api/usage.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/cloud/audit/audit_log.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/geo/type/viewport.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/logging/type/http_request.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/logging/type/log_severity.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/longrunning/operations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/rpc/code.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/rpc/error_details.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/rpc/status.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/calendar_period.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/color.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/date.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/dayofweek.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/expr.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/fraction.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/latlng.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/money.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/postal_address.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/quaternion.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-dependencies/d102520ea8e5d27ca18a47b6661a8d72/google/type/timeofday.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-plugins/protoc-3.11.0-windows-x86_64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-plugins/protoc-3.7.1-windows-x86_64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/protoc-plugins/protoc-gen-grpc-java-1.21.0-windows-x86_64.exe" afterDir="false" />
+    <list default="true" id="b59ca9bc-0db7-4d65-a9bd-9326e95fe9a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../map-reduce/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map-reduce/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map-reduce/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map-reduce/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map-reduce/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map-reduce/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map-reduce/map-reduce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../map-reduce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -152,34 +57,35 @@
     <session id="-757189325">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="7" />
           <entry key="proto" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1062" />
+          <entry key="java" value="1129" />
           <entry key="txt" value="6" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1062" />
+          <entry key="JAVA" value="1129" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="24" />
         </counts>
@@ -197,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HelloClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state relative-caret-position="32">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,14 +115,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HelloServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="62" column="110" selection-start-line="62" selection-start-column="110" selection-end-line="62" selection-end-column="110" />
+            <state relative-caret-position="238">
+              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#738#1170#0" expanded="true" />
                 <element signature="e#1169#1170#0" expanded="true" />
               </folding>
             </state>
@@ -250,6 +155,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/HelloClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/HelloServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HelloTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HelloWorldApp.java" />
       </list>
     </option>
   </component>
@@ -290,8 +197,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="558" />
-    <option name="y" value="378" />
+    <option name="x" value="106" />
+    <option name="y" value="351" />
     <option name="width" value="931" />
     <option name="height" value="526" />
   </component>
@@ -327,6 +234,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -338,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596638721640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596639397921" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../eureka-client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -367,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloClient">
+  <component name="RunManager" selected="Application.HelloServer">
     <configuration name="HelloClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloClient" />
       <module name="grpc" />
@@ -404,18 +317,25 @@
       <option name="presentableId" value="Default" />
       <updated>1596635446892</updated>
       <workItem from="1596635477603" duration="1156000" />
-      <workItem from="1596636689341" duration="1903000" />
+      <workItem from="1596636689341" duration="2718000" />
     </task>
+    <task id="LOCAL-00001" summary="grpc">
+      <created>1596638743354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596638743354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3059000" />
+    <option name="totallyTimeSpent" value="3874000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="106" y="351" width="931" height="526" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17609255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31458095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -423,7 +343,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32928476" />
+      <window_info anchor="bottom" id="Messages" weight="0.6240409" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.60598505" />
@@ -435,7 +355,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928476" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32992327" />
       <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -452,6 +372,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -483,16 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HelloClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -502,12 +438,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="62" column="110" selection-start-line="62" selection-start-column="110" selection-end-line="62" selection-end-column="110" />
+        <state relative-caret-position="238">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#738#1170#0" expanded="true" />
             <element signature="e#1169#1170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorldApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
