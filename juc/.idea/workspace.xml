@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5f77214-e97b-4a7d-a618-9e5ccf7a75e7" name="Default Changelist" comment="JUC">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CountDownLatchDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../grpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a5f77214-e97b-4a7d-a618-9e5ccf7a75e7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +14,11 @@
     <session id="-1462697565">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,26 +38,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1970" />
-          <entry key="txt" value="23" />
+          <entry key="txt" value="28" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1970" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="133">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -249,6 +240,7 @@
       <updated>1596845263936</updated>
       <workItem from="1596845280728" duration="3112000" />
       <workItem from="1596886050014" duration="2971000" />
+      <workItem from="1596936842179" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="J.U.C">
       <created>1596847983294</created>
@@ -257,17 +249,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596847983294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clean">
+      <created>1596936885280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596936885280</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6083000" />
+    <option name="totallyTimeSpent" value="6929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="413" y="260" width="931" height="522" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21928817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -339,7 +338,8 @@
     <MESSAGE value="countDownLatch" />
     <MESSAGE value="JUC" />
     <MESSAGE value="J.U.C" />
-    <option name="LAST_COMMIT_MESSAGE" value="J.U.C" />
+    <MESSAGE value="clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/CyclicBarrier.java" />
@@ -406,20 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StreamDemo.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="133">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
