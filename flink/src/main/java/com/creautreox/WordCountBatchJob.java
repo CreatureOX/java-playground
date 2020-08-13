@@ -12,27 +12,23 @@ import org.apache.flink.util.Collector;
  * description:
  */
 public class WordCountBatchJob {
-    private static final String INPUT_PATH = "wordCountText.txt";
-    private static final String OUTPUT_PATH = "wordCountStat.csv";
+    private static final String SPLITTER = " ";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-        DataSet<String> text = env.readTextFile(INPUT_PATH);
+        DataSet<String> text = env.fromElements("I have a simple demo.This is a very simple word count demo to count word.");
         DataSet<Tuple2<String, Integer>> counts = text.flatMap(new WordCountTokenizer())
                 .groupBy(0)
                 .sum(1);
-        counts.writeAsCsv(OUTPUT_PATH,"\n", " ");
+        counts.print();
     }
 
     public static class WordCountTokenizer implements FlatMapFunction<String, Tuple2<String, Integer>> {
 
         @Override
-        public void flatMap(String value, Collector<Tuple2<String, Integer>> collector) throws Exception {
-            String[] tokens = value.toLowerCase().split("\\w+");
-            for (String token: tokens){
-                if (token.length() > 0){
-                    collector.collect(new Tuple2<String, Integer>(token, 1));
-                }
+        public void flatMap(String value, Collector<Tuple2<String, Integer>> collector) {
+            for (String token: value.split(SPLITTER)){
+                collector.collect(new Tuple2<>(token, 1));
             }
         }
     }
