@@ -1,6 +1,5 @@
 package com.creatureox.annotation.controller;
 
-import com.creatureox.annotation.aop.annotation.ByteLength;
 import com.creatureox.annotation.aop.annotation.OperationLog;
 import com.creatureox.annotation.dto.request.TestReqDTO;
 import com.creatureox.annotation.service.DemoService;
@@ -25,7 +24,7 @@ public class DemoController {
 
     @OperationLog
     @GetMapping("/echo")
-    public String echo(@RequestParam("word") @ByteLength(max = 5) String word){
+    public String echo(@RequestParam("word") String word){
         return demoService.echo(word);
     }
 
