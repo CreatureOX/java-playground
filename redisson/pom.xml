@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.creatureox</groupId>
+        <groupId>com.github.creatureox</groupId>
         <artifactId>spring-boot-template</artifactId>
         <version>1.5.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->

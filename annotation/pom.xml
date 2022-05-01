@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.creatureox</groupId>
+        <groupId>com.github.creatureox</groupId>
         <artifactId>spring-boot-template</artifactId>
         <version>1.5.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
